@@ -2,10 +2,9 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
     output: 'export',
-    basePath: '',
+    basePath: '/enigma',
     trailingSlash: true,
-    skipTrailingSlashRedirect: true,
-    distDir: 'dist',
+    assetPrefix: "/enigma/_next/",
 };
 
 module.exports = nextConfig;
